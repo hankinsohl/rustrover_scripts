@@ -7,4 +7,3 @@ rustup default stable-x86_64-pc-windows-msvc
 cargo clean
 Write-Host "Verify that the Rust Standard Library is installed (search for library in RustRover)." -ForegroundColor Yellow
 Write-Host "Verify that the debugger is set to LLDB (search for LLDB in RustRover)." -ForegroundColor Yellow
-Write-Host "Verify that renderers are set to Rust compiler's renderers (Settings->Build, Execution, Deployment->Debugger->Data Views->Rust)." -ForegroundColor Yellow
